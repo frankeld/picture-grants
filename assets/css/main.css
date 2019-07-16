@@ -3124,7 +3124,7 @@ input, select, textarea {
 					margin-left: 0.75em;
 				}
 
-				#header nav a[href="about"] {
+				#header nav a.menu-button {
 					text-decoration: none;
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
@@ -3135,7 +3135,7 @@ input, select, textarea {
 					padding: 0 1.35em;
 				}
 
-					#header nav a[href="about"]:before {
+					#header nav a.menu-button:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						display: inline-block;
@@ -3148,16 +3148,16 @@ input, select, textarea {
 						font-weight: 900;
 					}
 
-					#header nav a[href="about"]:before {
-						/* content: '\f0c9'; */ 
+					#header nav a.menu-button:before {
+						/* content: '\f0c9'; */
 						line-height: inherit;
 					}
 
-					#header nav a[href="about"]:hover {
+					#header nav a.menu-button:hover {
 						background-color: rgba(255, 255, 255, 0.025);
 					}
 
-					#header nav a[href="about"]:active {
+					#header nav a.menu-button:active {
 						background-color: rgba(255, 255, 255, 0.075);
 					}
 
@@ -3189,13 +3189,13 @@ input, select, textarea {
 						line-height: inherit;
 					}
 
-						#header nav a[href="about"] {
+						#header nav a.menu-button {
 							box-shadow: none;
 							padding: 0 1em;
 							border-radius: 0;
 						}
 
-							#header nav a[href="about"]:hover, #header nav a[href="about"]:active {
+							#header nav a.menu-button:hover, #header nav a.menu-button:active {
 								background-color: inherit;
 							}
 
@@ -3203,14 +3203,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#header nav a[href="about"] {
+			#header nav a.menu-button {
 				width: 4em;
 				white-space: nowrap;
 				text-indent: 4em;
 				position: relative;
 			}
 
-				#header nav a[href="about"]:before {
+				#header nav a.menu-button:before {
 					width: inherit;
 					position: absolute;
 					top: 0;
@@ -3998,7 +3998,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .inner {
-		padding: 5em 0 3em 0 ;
+		padding: 1em 0 1em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4142,3 +4142,7 @@ input, select, textarea {
 		}
 
 	}
+
+#proposal {
+	margin: auto;
+}
