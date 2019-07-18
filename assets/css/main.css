@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/dc.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -275,7 +275,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.2em;
+		font-size: 1.5em
 	}
 
 	h3 {
@@ -297,7 +297,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1em;
+			font-size: 1.2em;
 		}
 
 		h3 {
@@ -3466,7 +3466,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/dc.jpg");
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3505,7 +3505,7 @@ input, select, textarea {
 					}
 
 				#banner h2 {
-					font-size: 1.5em;
+					font-size: 1.7em;
 				}
 
 				#banner p {
@@ -4008,7 +4008,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .inner {
-		padding: 1em 0 1em 0 ;
+		padding: 0.5em 0 0.5em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
