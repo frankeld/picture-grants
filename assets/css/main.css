@@ -3081,7 +3081,7 @@ input, select, textarea {
 		left: 0;
 		line-height: 3.5em;
 		padding: 0 1.25em;
-		position: fixed;
+		position: relative;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
@@ -3205,7 +3205,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+		#header {
+			display: none;
+		}
 			#header nav a.menu-button {
 				width: 4em;
 				white-space: nowrap;
@@ -4187,10 +4189,6 @@ input, select, textarea {
 
 .icon-Picture-4:before {
   content: "\e900";
-}
-
-body {
-    padding: 0;
 }
 
 #experiment-banner {
