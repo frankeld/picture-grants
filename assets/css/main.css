@@ -4218,4 +4218,7 @@ input, select, textarea {
 	padding-right: 2rem;
 }
 
-
+.typeform-share.button {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
